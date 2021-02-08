@@ -87,8 +87,7 @@ header .right button {
    font-size: 56px;
    font-weight: 800;
    color: rgb(247, 119, 140);
-   font-style: unset;
-   
+   font-style: unset;   
 }
 .layer .header button {
     margin: 0 auto;
