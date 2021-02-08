@@ -92,6 +92,7 @@ header .right button {
    font-size: 56px;
    font-weight: 800;
    color: rgb(247, 119, 140);
+   font-style: unset;
    
 }
 .layer .header button {
@@ -101,4 +102,62 @@ header .right button {
     padding: 5px 10px;
     border-radius: 5px;
     border: 3px #000 solid;
+}
+.about {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    padding: 80px;
+
+}
+.about .about-us {
+    flex: 1;
+}
+.about .about-us .text-about {
+    width: 80%;
+}
+
+.about .about-us .text-about p{
+    color: #777;
+    font-size: 16px;
+}
+.about .about-us .text-about h2 {
+    font-weight: 400;
+    font-size: 30px;
+}
+.about .about-us .text-about em {
+    font-size: 52px;
+    font-weight: 800;
+    color: rgb(247, 119, 140);
+    font-style: unset;
+}
+.about .about-us .text-about button {
+    background-color: transparent;
+    border-radius: 5px;
+    height: 36px;
+    font-size: 18px;
+    color: #777;
+    border-color: #777;
+    width: 100px;
+}
+.about .photo-about{
+    flex: 1;
+}
+.about .photo-about .photo-card {
+    width: 100%;
+    padding-top: 75%;
+    background: url("photos/footer-right-column.jpeg");
+    background-size: contain;
+    position: relative;
+    
+}
+.about .photo-about .photo-card::before {
+    position: absolute;
+    top: -7%;
+    left: -7%;
+    width: 100%;
+    height: 100%;
+    border: 6px solid rgb(248, 223, 152);
+    content: '';
+    z-index: -1;
 }
